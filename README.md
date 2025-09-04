@@ -58,7 +58,14 @@ Accurate predictions help architects and engineers design **energy-efficient bui
 
 **Tools Used:**
 - Python (Pandas, NumPy, Matplotlib)  
-- Jupyter Notebook  
+- Jupyter Notebook
+
+## Week 2 – Completed Tasks
+- **Algorithm Selection**: Chose multiple regression models (Linear Regression, Decision Tree Regressor, Random Forest Regressor) to compare performance.  
+- **Model Training**: Trained the selected algorithms on the training data.  
+- **Model Evaluation**: Evaluated models on validation/test data using metrics like R² Score and Mean Squared Error (MSE).  
+- **Model Optimization**: Tuned hyperparameters (e.g., `max_depth`, `n_estimators`) using GridSearchCV to improve model accuracy.  
+- **Final Model Evaluation**: Selected the best model (Random Forest) and tested it on unseen test data for final performance report.
 
 ---
 
@@ -71,8 +78,8 @@ Accurate predictions help architects and engineers design **energy-efficient bui
 
 ## Next Steps (Week 2+)
 - **Week 2:** Algorithm selection and baseline model training (Linear Regression, Random Forest, etc.)  
-- **Week 3:** Model evaluation (RMSE, R²), hyperparameter tuning  
-- **Week 4:** Final evaluation on test data, simple deployment (e.g., Streamlit app)  
+- **Week 3:** Model deployment
+- **Week 4:**   
 
 ---
 
