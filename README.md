@@ -68,6 +68,11 @@ Accurate predictions help architects and engineers design **energy-efficient bui
 - **Final Model Evaluation**: Selected the best model (Random Forest) and tested it on unseen test data for final performance report.
 
 ---
+Week 3 – Model Optimization & Deployment
+Tuned Random Forest hyperparameters (max_depth, n_estimators) for optimal accuracy
+Optimized Random Forest Performance: MSE=0.24, RMSE=0.49, R²=0.998
+Deployed the best-performing model using Gradio for interactive predictions
+Users can input building features and obtain real-time Heating Load predictions
 
 ## How to Run
 1. Download `ENB2012_data.xlsx` from the [UCI dataset page](https://archive.ics.uci.edu/dataset/242/energy+efficiency)  
@@ -76,12 +81,19 @@ Accurate predictions help architects and engineers design **energy-efficient bui
 
 ---
 
-## Next Steps (Week 2+)
-- **Week 2:** Algorithm selection and baseline model training (Linear Regression, Random Forest, etc.)  
-- **Week 3:** Model deployment
-- **Week 4:**   
+Key Learning Outcomes
 
+Hands-on experience with regression models for energy efficiency prediction
+Understanding of feature engineering, data preprocessing, and model evaluation metrics
+Model deployment using Gradio for real-time predictions
+End-to-end ML pipeline development
 ---
+
+Next Steps
+
+Extend the model for Cooling Load (Y2) prediction
+Integrate with web dashboards for interactive building energy analysis
+Explore other ML models and ensemble techniques for improved accuracy
 
 ## References
 - Tsanas, A. & Xifara, A. (2012). *Energy Efficiency* [Dataset]. UCI Machine Learning Repository. DOI: 10.24432/C51307  
